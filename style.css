@@ -42,7 +42,7 @@ p{
     font-size: 12px;
 
 }
-.nav-menu, a{
+.nav-menu a{
     margin: 0 10px;
     cursor: pointer;
     text-decoration: none;
@@ -57,3 +57,80 @@ p{
     width: 60px;
     height: auto;
 }
+.burger div{
+    width: 24px;
+    height: 2px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease-out;
+    z-index: 3;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+    
+}
+
+
+@media only screen and (max-width: 990px) {
+    .nav-bar{
+        grid-template-columns: 1fr 3fr;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+      body{
+          overflow-x: hidden;
+      }
+    .nav-menu{
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 0px;
+        width: 100%;
+        height: 70vh;
+        padding: 120px 90px;
+        background-color: red;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        justify-content: space-around;
+        text-align: center;
+        border-radius: 0 0 0 50px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+    .nav-menu a{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        margin-left: auto;
+    }
+    .nav-active{
+        transform: translateX(0px);
+    }
+    .nav-visible{
+        opacity: 100%;
+    }
+  }
+
+  @keyframes navLinksFade {
+      from{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+  }
+  .cross .line1{
+      transform: rotate(135deg) translate(6px, -4px);
+  }
+  .cross .line2{
+    opacity: 0;
+  }
+  .cross .line3{
+    transform: rotate(-135deg) translate(6px, 4px);
+  }
