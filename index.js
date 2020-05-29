@@ -1,4 +1,4 @@
-const animation = bodymovin.loadAnimation({
+var animation = bodymovin.loadAnimation({
     container: document.getElementById('bm'),
     renderer: 'svg',
     loop: true,
@@ -6,7 +6,7 @@ const animation = bodymovin.loadAnimation({
     path: 'images/index/animation/data.json'
   });
 
-const animation = bodymovin.loadAnimation({
+var animation = bodymovin.loadAnimation({
     container: document.getElementById('bm2'),
     renderer: 'svg',
     loop: true,
