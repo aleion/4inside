@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 400;
+    size: 16px;
+}
+.container{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background-image: url(images/blue-hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.nav-bar{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.nav-menu{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.nav-menu, a{
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#contact{
+    border: solid 1px #FFBD0B;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}

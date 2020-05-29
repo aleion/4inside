@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70.844 66.908">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: rgba(0,32,69,0.41);
+      }
+
+      .cls-4 {
+        fill: #cecece;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_112" data-name="Rectangle 112" class="cls-1" width="70.844" height="66.908" transform="translate(0 0)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_1545" data-name="Path 1545" class="cls-1" d="M314.921,136.592a.328.328,0,0,0-.253.119l-18.115,20.623a.328.328,0,0,0-.074.211l.125,8.146a.328.328,0,0,0,.328.321h6.918c1.5-2.4,3.568-5.878,5.881-8.87h-2.981l8.378-10.016.015,3.286a60.534,60.534,0,0,1,9.267-8.462v-5.033a.328.328,0,0,0-.328-.328Z" transform="translate(-296.48 -136.59)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.606" y1="1.987" x2="-0.604" y2="1.987" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f15a24"/>
+      <stop offset="0.28" stop-color="#e2670c"/>
+      <stop offset="0.92" stop-color="#ff1e01"/>
+      <stop offset="1" stop-color="#ff1e01"/>
+    </linearGradient>
+  </defs>
+  <g id="logo" transform="translate(38.2 8)">
+    <g id="Group_23" data-name="Group 23" class="cls-2" transform="translate(-38.2 -8)">
+      <path id="Path_1540" data-name="Path 1540" class="cls-3" d="M104.126,40.338A32.962,32.962,0,1,1,70.549,8a32.962,32.962,0,0,1,33.577,32.333" transform="translate(-35.703 -7.474)"/>
+      <rect id="Rectangle_110" data-name="Rectangle 110" class="cls-4" width="7.193" height="0.97" transform="translate(19.403 56.63) rotate(-89.89)"/>
+      <path id="Path_1541" data-name="Path 1541" class="cls-4" d="M344.92,760.893l.014-7.193h1.059l2.4,3.644a20.079,20.079,0,0,1,1.345,2.345l.022-.01c-.087-.961-.108-1.837-.106-2.956l.006-3.01h.914l-.01,7.192h-.984l-2.38-3.654a22.129,22.129,0,0,1-1.4-2.4l-.033.011c.054.907.075,1.771.072,2.967l-.006,3.074Z" transform="translate(-322.295 -704.26)"/>
+      <path id="Path_1542" data-name="Path 1542" class="cls-4" d="M459.758,758.375a3.561,3.561,0,0,0,1.74.472c.992,0,1.574-.5,1.574-1.224,0-.672-.4-1.057-1.414-1.433-1.226-.419-1.983-1.028-1.982-2.042,0-1.12.974-1.952,2.436-1.948a3.529,3.529,0,0,1,1.661.355l-.269.758a3.1,3.1,0,0,0-1.427-.344c-1.026,0-1.42.584-1.42,1.075,0,.672.455,1,1.492,1.391,1.271.472,1.917,1.06,1.915,2.117,0,1.11-.863,2.069-2.636,2.066a4.053,4.053,0,0,1-1.917-.459Z" transform="translate(-429.368 -702.859)"/>
+      <rect id="Rectangle_111" data-name="Rectangle 111" class="cls-4" width="7.193" height="0.97" transform="translate(36.58 56.662) rotate(-89.89)"/>
+      <path id="Path_1543" data-name="Path 1543" class="cls-4" d="M606.813,753.576a14.582,14.582,0,0,1,2.064-.146,4.422,4.422,0,0,1,3.043.9,3.245,3.245,0,0,1,1.055,2.585,3.706,3.706,0,0,1-1.087,2.794,4.765,4.765,0,0,1-3.326,1.029,16.3,16.3,0,0,1-1.762-.089Zm.958,6.363a6.382,6.382,0,0,0,.984.055c2.075,0,3.2-1.1,3.207-3.046.014-1.7-.988-2.777-3.04-2.781a5.761,5.761,0,0,0-1.138.094Z" transform="translate(-566.996 -704.008)"/>
+      <path id="Path_1544" data-name="Path 1544" class="cls-4" d="M694.2,750.238l-2.922-.005,0,2.594,3.257.006v.779L690.3,753.6l.014-7.194,4.06.008v.779l-3.09-.005,0,2.273,2.922.006Z" transform="translate(-642.513 -696.924)"/>
+    </g>
+    <g id="Group_24" data-name="Group 24" class="cls-5" transform="translate(-18.752 0.96)">
+      <rect id="Rectangle_113" data-name="Rectangle 113" class="cls-6" width="27.933" height="29.421" transform="translate(-0.001 0.002)"/>
+    </g>
+    <g id="Group_25" data-name="Group 25" class="cls-2" transform="translate(-38.2 -8)">
+      <path id="Path_1546" data-name="Path 1546" class="cls-4" d="M469.73,276.8a48.941,48.941,0,0,0-9.258,8.255l.012,3.1h-2.55a74.155,74.155,0,0,0-5.936,8.87h7.787a.328.328,0,0,1,.328.328v6.539a.328.328,0,0,0,.328.328H469.4a.328.328,0,0,0,.328-.328v-6.54a.328.328,0,0,1,.328-.328h3.946a.328.328,0,0,0,.328-.328v-8.215a.328.328,0,0,0-.328-.328h-3.949a.328.328,0,0,1-.328-.328Z" transform="translate(-422.351 -258.643)"/>
+    </g>
+  </g>
+</svg>
