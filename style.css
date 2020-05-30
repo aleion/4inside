@@ -96,20 +96,18 @@ h1 span{
 
 .hero{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 1fr 3fr;
     padding: 0 0 0 100px ;
-    height:  85vh;
+    height:  80vh;
     position: relative;
     align-items: flex-start;
-    height: 100%;
 }
 .hero-text{
-   margin: 70px auto;
-   position: relative;
+   position: absolute;
+   width: 50%;
+   background-color: yellow;
 }
-.hero-text p{
-    width: 150%;
-}
+
 .hero-text .item{
     margin-top: 25px;
 }
@@ -131,9 +129,10 @@ h1 span{
 .hero-animation{
     grid-column-start: 2;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-    height: 100%;
+    width: 100%;
+    background-color: red;
 }
 
 
