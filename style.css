@@ -96,11 +96,12 @@ h1 span{
 
 .hero{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 30% 70%;
     padding: 0 0 0 100px ;
     height:  85vh;
     position: relative;
-    align-items: top;
+    align-items: flex-start;
+    height: 100%;
 }
 .hero-text{
    margin: 70px auto;
@@ -128,8 +129,11 @@ h1 span{
     letter-spacing: 1px;
 }
 .hero-animation{
-    background-color: red;
-    width: 1000px;
+    grid-column-start: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 
