@@ -134,6 +134,21 @@ h1 span{
     
 }
 
+/* SECTION 2*/
+.container-2{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.container-2 img{
+    
+    position: absolute;
+    top: -90%;
+    right: -10%;
+    z-index: -5;
+}
+
+
 
 
 
