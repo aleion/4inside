@@ -32,7 +32,7 @@ h1 span{
     background-image: url(images/blue-hero-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 /*   NAV BAR  */
@@ -115,7 +115,7 @@ h1 span{
 
 
 
-/* TABLET */
+/* TABLET HORIZONTAL*/
 @media only screen and (max-width: 990px) {
     .nav-bar{
         grid-template-columns: 1fr 3fr;
@@ -140,10 +140,10 @@ h1 span{
 
 
 
-/*  SMALL TABLET*/  
+/*  TABLET VERTICAL*/  
   @media screen and (max-width: 768px) {
-      body{
-          overflow: hidden;
+      .container{
+        overflow: hidden;
       }
       .nav-bar{
           padding: 2rem;
