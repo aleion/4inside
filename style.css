@@ -7,7 +7,7 @@
 body{
     background-color: white;
 }
-.p-hero{
+.p-hero , .hero-btn{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: .8rem;
@@ -26,8 +26,9 @@ h1 span{
 }
 
 .container{
+    margin-top: -1px;
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     position: relative;
     background-image: url(images/blue-hero-bg.svg);
     background-repeat: no-repeat;
@@ -94,18 +95,44 @@ h1 span{
 
 /* HERO */
 
-
-
-
-
-
-
-
-
-
-
-
-
+.hero{
+    position: relative;
+    display: grid;
+    grid-template-columns:  1fr 5fr;
+    width: 100%;
+    height: 70vh;
+    padding-left: 80px;
+}
+.hero-text{
+    position: relative;
+    overflow: visible;
+    height: 70%;
+}
+.text-cont{
+    display: grid;
+    row-gap: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    color: white;
+}
+.hero-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.hero-img{
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+}
+.hero-animation{
+    width: 100%;
+    
+}
 
 
 
@@ -116,24 +143,32 @@ h1 span{
 
 
 /* TABLET HORIZONTAL*/
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1024px) {
     .nav-bar{
         grid-template-columns: 1fr 3fr;
     }
+
+    .hero{
+        overflow-x: hidden;
+        overflow-y: visible;
+        grid-template-columns: 1fr;
+        height: 80vh;
+    }
+    .text-cont{
+        width: 40%;
+        top: 160px;
+    }
+    .text-cont h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .hero-img{
+        width: 100%;
+        margin-right: -10%;
+        margin-top: auto;
+    }
    
   }
-
-
-
-
-  
-
-
-
-
-
-
-
 
 
 
@@ -184,6 +219,21 @@ h1 span{
         width: 100px;
     }
 
+
+    .hero{
+        padding-left: 40px;
+        grid-template-rows: 1fr 5fr;
+    }
+    .text-cont{
+        width: 80%;
+    }
+    .hero-img{
+        width: 120%;
+    }
+    .hero-animation{
+    
+    }
+
     
   }
 
@@ -191,7 +241,30 @@ h1 span{
 
 /*MOBILE*/
   @media screen and (max-width: 500px){
-   
+      .container{
+          height: 120vh;
+      }
+    .hero{
+        height: 100%;
+        overflow: hidden;
+    }
+    .text-cont{
+        top: 130px;
+        row-gap: 20px;
+        z-index: 3;
+    }
+    .text-cont h1{
+        font-size: 35px;
+        line-height: 30px;
+
+    }
+   .hero-animation{
+       position: absolute;
+       width: 600px;
+       top:210px;
+       right: -150px;
+       z-index: 2;
+   }
   }
 
 
