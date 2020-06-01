@@ -7,7 +7,7 @@
 body{
     background-color: white;
 }
-.p-hero , .hero-btn{
+.p-hero , .hero-btn, p{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: .8rem;
@@ -24,6 +24,12 @@ h1{
 h1 span{
     font-weight: 100;
 }
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
 
 .container{
     margin-top: 0px;
@@ -33,7 +39,7 @@ h1 span{
     background-image: url(images/blue-hero-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 
 /*   NAV BAR  */
@@ -135,17 +141,78 @@ h1 span{
 }
 
 /* SECTION 2*/
-.container-2{
+
+.wrapper{
     width: 100%;
-    height: 1000px;
-    position: relative;
+    height: auto;
+    display: grid;
 }
-.container-2 img{
-    
+.top-text{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-text h2 span{
+    font-weight: 300;
+}
+.first-service{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.first-service-text{
+    display: grid;
+    height: 200px;
+    padding: 20px 60px;
+    justify-items: start;
+    align-content: center;
+    row-gap: 20px;
+ 
+}
+.first-service-text p{
+    font-weight: 400;
+}
+.parallax-laptop{
+    position: relative;
+    height: 100%;
+    display: grid;
+    justify-items: right;
+}
+.parallax-laptop img{
     position: absolute;
-    top: -90%;
-    right: -10%;
-    z-index: -5;
+}
+#laptop{
+    position: relative;
+    width: 70%;
+    z-index: 5;
+}
+#proce{
+    width: 25%;
+    right: 10px;
+    top: 50px;
+    z-index: 6;
+}
+#rect1{
+    width: 10%;
+    bottom: -10%;
+    left: 150px;
+}
+#rect2{
+    top: -20px;
+    left: 100px;
+    width: 7%;
+    filter: blur(1px);
+}#sq1{
+    width: 10%;
+    right: 30px;
+    bottom: 20px;
+    filter: blur(6px);
+}#sq2{
+    width: 20%;
+    left: 20px;
+    top: 200px;
 }
 
 
@@ -182,6 +249,7 @@ h1 span{
         margin-right: -10%;
         margin-top: auto;
     }
+    
    
   }
 
@@ -248,7 +316,6 @@ h1 span{
     .hero-animation{
     
     }
-
     
   }
 
@@ -280,6 +347,9 @@ h1 span{
        right: -150px;
        z-index: 2;
    }
+  
+   
+
   }
 
 

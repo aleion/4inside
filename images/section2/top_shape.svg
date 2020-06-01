@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1320.244 1210.649">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="0.233" y1="0.936" x2="0.458" y2="0.575" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f6eafa"/>
-      <stop offset="1" stop-color="#a5abde"/>
-    </linearGradient>
-  </defs>
-  <path id="Path_1538" data-name="Path 1538" class="cls-1" d="M1118.892,1026.923c624.791-42.115,817.388-191.042,962.985-408.554.3-.335-1.59-7.4-7.543-32.672S1949.8,46.277,1949.8,46.277,468.062,1070.793,1118.892,1026.923Z" transform="translate(-697.894 -259.616) rotate(13)"/>
-</svg>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1179.5 813.14"><defs><style>.cls-1{fill:#fff;}.cls-2{stroke:#fff;stroke-miterlimit:10;fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="142.71" y1="877.41" x2="1138.48" y2="279.43" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f6eafa"/><stop offset="1" stop-color="#a5abde"/></linearGradient></defs><title>top_shape</title><path class="cls-1" d="M1256,104" transform="translate(-1.5 0.24)"/><path class="cls-2" d="M1180.5,584.78V.51C-440.47,678.66,62.76,770.82,121.33,780,978.25,914.86,1180.5,584.78,1180.5,584.78Z" transform="translate(-1.5 0.24)"/></svg>
