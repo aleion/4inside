@@ -1,3 +1,5 @@
+
+
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('bm'),
     renderer: 'svg',
@@ -40,4 +42,8 @@ const navSlider = () => {
     
   };
 
-  navSlider();
+navSlider();
+
+var rellax = new Rellax('.rellax', {
+  breakpoints: [500, 768, 1024]
+});
