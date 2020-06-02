@@ -196,12 +196,12 @@ h2{
 }
 #rect1{
     width: 10%;
-    bottom: -10%;
+    bottom: -15%;
     left: 150px;
 }
 #rect2{
-    top: -20px;
-    left: 100px;
+    top: -30px;
+    left: 150px;
     width: 7%;
     filter: blur(1px);
 }#sq1{
@@ -347,7 +347,15 @@ h2{
        right: -150px;
        z-index: 2;
    }
-  
+   .first-service{
+       grid-template-columns: 1fr;
+       padding: 40px;
+       
+   }
+   .first-service-text{
+       padding: 0;
+       grid-row-start: 1;
+   }
    
 
   }
