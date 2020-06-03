@@ -40,6 +40,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+
 }
 
 /*   NAV BAR  */
@@ -155,23 +156,27 @@ h2{
 .top-text h2 span{
     font-weight: 300;
 }
-.first-service{
+.first-service, .second-service{
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-bottom: -40px;
 }
-.first-service-text{
+.first-service-text, .second-service-text{
     display: grid;
     height: 200px;
     padding: 20px 60px;
     justify-items: start;
     align-content: center;
     row-gap: 20px;
- 
 }
-.first-service-text p{
+.second-service-text{
+    justify-items: end;
+    text-align: end;
+}
+.serv p{
     font-weight: 400;
 }
 .parallax-laptop{
@@ -230,9 +235,16 @@ h2{
     align-items: center;
     color: #6A408E;
 }
+.second-service-text .serv-link{
+    display: inline;
+}
 .fas{
     margin-left: 10px;
     font-size: 12px;
+}
+.second-service-img img{
+    width: 90%;
+    z-index: -4;
 }
 
 
@@ -251,8 +263,7 @@ h2{
     }
 
     .hero{
-        overflow-x: hidden;
-        overflow-y: visible;
+        width: 90%;
         grid-template-columns: 1fr;
         height: 80vh;
     }
@@ -269,6 +280,7 @@ h2{
         margin-right: -10%;
         margin-top: auto;
     }
+    
     
    
   }
@@ -322,7 +334,9 @@ h2{
         width: 100px;
     }
 
-
+    .container{
+        height: 100vh;
+    }
     .hero{
         padding-left: 40px;
         grid-template-rows: 1fr 5fr;
@@ -331,12 +345,36 @@ h2{
         width: 80%;
     }
     .hero-img{
-        width: 120%;
+        width: 100%;
     }
-    .hero-animation{
-    
+    .top-text{
+        margin-bottom: 20px;
+       }
+       .first-service, .second-service{
+        grid-template-columns: 1fr;
+        padding: 20px 40px;
+        margin-bottom: 20px;
+        
+        
     }
-    
+    .serv{
+        padding: 0 50px;
+        grid-row-start: 1;
+    }
+    .parallax-laptop{
+        width: 70%;
+        transform: translateY(-70px);
+    }
+    .second-service-img{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+    }
+    .second-service-img img{
+        width: 60%;
+        z-index: -4;
+        transform: translateY(-130px);
+    }
   }
 
 
@@ -344,11 +382,12 @@ h2{
 /*MOBILE*/
   @media screen and (max-width: 500px){
       .container{
-          height: 120vh;
+          height: 110vh;
       }
     .hero{
+        width: 100%;
         height: 100%;
-        overflow: hidden;
+        overflow: visible;
     }
     .text-cont{
         top: 130px;
@@ -367,15 +406,35 @@ h2{
        right: -150px;
        z-index: 2;
    }
-   .first-service{
+   .first-service, .second-service{
        grid-template-columns: 1fr;
-       padding: 40px;
+       padding: 20px 40px;
+       margin-bottom: 20px;
+       
        
    }
-   .first-service-text{
+   .serv{
        padding: 0;
        grid-row-start: 1;
    }
+   .top-text{
+    margin-bottom: 20px;
+   }
+   #proce{
+       top: 100%;
+       right: 0;
+   }
+   .parallax-laptop{
+       z-index: -3;
+       width: 100%;
+       transform: translateY(-50px);
+   }
+   .second-service-img img{
+    width: 100%;
+    transform: translateY(-90px);
+    
+}
+
    
 
   }
