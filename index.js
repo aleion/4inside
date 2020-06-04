@@ -13,7 +13,7 @@ var animation = bodymovin.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'images/index/animation/data2.json'
+    path: 'images/index/animation/animation2/data2.json'
 });
 
 

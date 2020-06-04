@@ -156,7 +156,7 @@ h2{
 .top-text h2 span{
     font-weight: 300;
 }
-.first-service, .second-service{
+.first-service, .second-service, .third-service, .four-service{
     width: 100%;
     height: auto;
     display: grid;
@@ -164,7 +164,7 @@ h2{
     align-items: center;
     margin-bottom: -40px;
 }
-.first-service-text, .second-service-text{
+.first-service-text, .second-service-text, .third-service-text, .four-service-text{
     display: grid;
     height: 200px;
     padding: 20px 60px;
@@ -172,9 +172,13 @@ h2{
     align-content: center;
     row-gap: 20px;
 }
-.second-service-text{
+.second-service-text, .four-service-text{
     justify-items: end;
     text-align: end;
+}
+
+.serv.serv-link{
+    color: white;
 }
 .serv p{
     font-weight: 400;
@@ -219,7 +223,7 @@ h2{
     left: 20px;
     top: 100px;
 }
-.second-service{
+.second-service, .four-service{
     width: 100%;
     height: 500px;
 }
@@ -235,7 +239,7 @@ h2{
     align-items: center;
     color: #6A408E;
 }
-.second-service-text .serv-link{
+.second-service-text .serv-link, .four-service-text .serv-link{
     display: inline;
 }
 .fas{
@@ -246,7 +250,14 @@ h2{
     width: 90%;
     z-index: -4;
 }
-
+.four-service-img{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.four-service-img img{
+    width: 60%;
+}
 
 
 
@@ -350,7 +361,7 @@ h2{
     .top-text{
         margin-bottom: 20px;
        }
-       .first-service, .second-service{
+       .first-service, .second-service, .third-service, .four-service{
         grid-template-columns: 1fr;
         padding: 20px 40px;
         margin-bottom: 20px;
@@ -364,16 +375,25 @@ h2{
     .parallax-laptop{
         width: 70%;
         transform: translateY(-70px);
+        z-index: -4;
     }
-    .second-service-img{
+    .second-service-img, .four-service-img{
         width: 100%;
         display: grid;
         justify-items: center;
     }
     .second-service-img img{
         width: 60%;
+        margin-top: -70px;
         z-index: -4;
-        transform: translateY(-130px);
+       
+    }
+    .third-service-img{
+        margin-top: -80px;
+        z-index: -3;
+    }
+    .four-service-img img{
+        width: 50%;
     }
   }
 
@@ -406,10 +426,9 @@ h2{
        right: -150px;
        z-index: 2;
    }
-   .first-service, .second-service{
+   .first-service, .second-service, .third-service, .four-service{
        grid-template-columns: 1fr;
-       padding: 20px 40px;
-       margin-bottom: 20px;
+       padding: 0px 40px;
        
        
    }
@@ -427,13 +446,19 @@ h2{
    .parallax-laptop{
        z-index: -3;
        width: 100%;
-       transform: translateY(-50px);
+       height: 100%;
+       margin-top: 80px;
    }
-   .second-service-img img{
+   .second-service-img img, .four-service-img img {
+    height:  100%;
     width: 100%;
-    transform: translateY(-90px);
+    margin-top: -50px;
+    }
     
-}
+    .third-service-img{
+        margin-top: -40px;
+        width: 100%;
+    }
 
    
 
