@@ -10,7 +10,7 @@ body{
 .p-hero , .hero-btn, p, .ver-btn{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: .8rem;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 h1{
@@ -62,7 +62,7 @@ h2{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: .7em;
+    font-size: 14px;
     letter-spacing: 1px;
 
 }
@@ -128,10 +128,18 @@ h2{
 .hero-btn{
     width: 150px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 10px;
+    font-size: 14px;
     border: none;
     background-color: orangered;
     color: white;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background-color: rgb(230, 99, 55);
+}
+.hero-btn:active{
+    background-color: rgb(255, 72, 72);
 }
 .hero-img{
     width: 100%;
@@ -251,17 +259,18 @@ h2{
     font-size: 12px;
 }
 .second-service-img img{
-    width: 90%;
+    width: 80%;
     z-index: -4;
+    
 }
 .four-service-img{
     display: grid;
     align-items: center;
-    justify-items: center;
+    justify-items: start;
+    padding-left: 30px;
 }
 .four-service-img img{
-    width: 60%;
-    margin-bottom: 100px;
+    width: 50%;
 }
 footer{
     width: 100%;
@@ -446,8 +455,7 @@ footer{
    .first-service, .second-service, .third-service, .four-service{
        grid-template-columns: 1fr;
        padding: 0px 40px;
-       
-       
+       height: 100%;
    }
    .serv{
        padding: 0;
@@ -467,7 +475,6 @@ footer{
        margin-top: 80px;
    }
    .second-service-img img {
-    height:  100%;
     width: 100%;
     margin-top: -50px;
     }
